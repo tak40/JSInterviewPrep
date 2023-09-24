@@ -6,7 +6,7 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 
 1. [What are the falsy values in JavaScript?](./falsyValues.js) - Understand the values in JavaScript that evaluate to false.
 
-A: "A se of unique values that evaluate to false."
+A: "A set of unique values that evaluate to false."
 
 ```javascript
 const falsyValues = [false, 0, "", null, undefined, NaN, -0];
