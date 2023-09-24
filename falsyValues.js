@@ -114,4 +114,5 @@ Notes:
 Additional Resources:
     - [freeCodeCamp](https://www.freecodecamp.org/news/falsy-values-in-javascript/)
     - [Truthy vs Falsy Solution - JavaScript Basics](https://www.youtube.com/watch?v=AEQ7knLvJdw)
+    - [Coercion and falsy values in JavaScript](https://www.youtube.com/watch?v=0O-9uXmqbFI)
 */
