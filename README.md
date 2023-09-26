@@ -6,9 +6,8 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 
 1. [Falsy Values in JavaScript](#falsy-values-in-javascript)
 2. [const vs let vs var](#const-vs-let-vs-var)
-...
 
-## falsy-values-in-javascript
+## Falsy Values in JavaScript
 
 1. [What are the falsy values in JavaScript?](./falsyValues.js) - Understand the values in JavaScript that evaluate to false.
 
