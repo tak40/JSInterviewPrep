@@ -1,12 +1,12 @@
 /*
 Question:
-    What's the difference between == and === in JavaScript?
+What's the difference between == and === in JavaScript?
 
 Explanation:
-    In JavaScript, both == and === are equality operators, used to compare values. The main difference lies in how they handle type coercion:
+In JavaScript, == and === are both used to compare values, but they do so in slightly different ways due to type coercion.
 
-    1. == (Loose Equality): Allows type coercion. If the types of the two operands are different, it tries to convert one (or both) operands to a common type and then makes a comparison.
-    2. === (Strict Equality): No type coercion. Compares both the value and the type of the operands. If the types differ, it immediately returns false.
+== (often called Loose Equality) allows for type coercion. This means that if the two values being compared have different types, JavaScript will try to convert one or both of the values so that they have a common type and then compares them.
+=== (often called Strict Equality) doesn't allow type coercion. It checks if the values being compared have the same type and if they do, then it compares the values. If they don't have the same type, it immediately considers them not equal.
 
 Reference:
     - [MDN Guide on Equality Comparisons and Sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
@@ -19,11 +19,13 @@ console.log(3 == '3');  // true, because '3' is type coerced to the number 3
 console.log(true == 1); // true, because true is type coerced to the number 1
 console.log(null == undefined); // true, because both are considered equivalent in loose comparison
 
-/* Rules for type coercion with `==`:
-1. If either operand is a string, and the other is a number, the string is converted to a number for comparison.
-2. If either operand is a boolean, it will be converted to a number (`true` becomes 1 and `false` becomes 0).
-3. If one operand is an object and the other is a primitive value, the object will be converted to a primitive. It will first try the `valueOf` method, and if that doesn't return a primitive, it'll use the `toString` method.
-4. If one of the operands is `null` or `undefined`, the other must also be `null` or `undefined` for the comparison to return true. Otherwise, it returns false.
+/*
+Some rules to remember about type coercion with ==:
+
+If one value is a string and the other is a number, JavaScript tries to convert the string to a number and then compares them.
+If one value is a boolean, JavaScript converts it to a number. Specifically, true becomes 1 and false becomes 0.
+If one value is an object and the other is a primitive (like a number or a string), JavaScript tries to convert the object to a primitive for comparison.
+When comparing a value to null or undefined using ==, they are considered equal. But, if you compare any other value to null or undefined, it will return false.
 */
 
 // === (Strict Equality) Examples
