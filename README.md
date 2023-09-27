@@ -7,6 +7,8 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 1. [Falsy Values in JavaScript](#falsy-values-in-javascript)
 2. [const vs let vs var](#const-vs-let-vs-var)
 3. [== vs ===](#==-vs-===)
+4. [undefined vs null](#undefined-vs-null)
+
 
 ## Falsy Values in JavaScript
 
@@ -41,6 +43,19 @@ In JavaScript, == and === are both equality comparison operators, but they diffe
  - === (Strict Equality): Compares both value and type, which means no type coercion is done.
 
     - [MDN Guide on Equality Comparisons and Sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+    
+
+## undefined vs null
+
+4. [What is the difference between `undefined` and `null` in JavaScript?](./undefinedVsNull.js) - Dive into the distinct meanings and use cases of `undefined` and `null`.
+
+In JavaScript, both `undefined` and `null` are special values that represent the absence of a value. However, they are used in slightly different contexts:
+- **undefined**: Indicates that a variable has been declared but has not been assigned a value. It also appears when accessing an object property or array index that doesn't exist.
+- **null**: Represents an intentional absence of any value or object. It's often used to represent "no value" or "no object."
+
+   - [MDN Web Docs on null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+   - [MDN Web Docs on undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
 
 ## Resources
 
