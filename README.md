@@ -8,6 +8,8 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 2. [const vs let vs var](#const-vs-let-vs-var)
 3. [== vs ===](#==-vs-===)
 4. [undefined vs null](#undefined-vs-null)
+5. [JavaScript Data Types](#javascript-data-types)
+
 
 
 ## Falsy Values in JavaScript
@@ -43,7 +45,7 @@ In JavaScript, == and === are both equality comparison operators, but they diffe
  - === (Strict Equality): Compares both value and type, which means no type coercion is done.
 
     - [MDN Guide on Equality Comparisons and Sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
-    
+
 
 ## undefined vs null
 
@@ -56,6 +58,18 @@ In JavaScript, both `undefined` and `null` are special values that represent the
    - [MDN Web Docs on null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
    - [MDN Web Docs on undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 
+## JavaScript Data Types
+
+5. [What are some JavaScript data types?](./dataTypes.js) - Grasp the different data types in JavaScript, distinguishing between primitive and non-primitive (or reference) types.
+
+In JavaScript, data types are broadly categorized into two groups: primitive and non-primitive (or reference). 
+
+- **Primitive Data Types**: These represent single values that can't be further broken down. They are immutable and don't have properties or methods you can modify. Examples include `Number`, `String`, `Boolean`, `undefined`, `BigInt`, `Symbol`, and `null`.
+
+- **Non-primitive (or Reference) Data Types**: These can hold collections of data or more complex entities. They can be mutated (changed) and have properties and methods you can work with. The primary examples are `Object` (including specialized forms like `Array` and `Function`).
+
+    - [MDN Web Docs on Data Types and Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+    - [MDN Web Docs on Primitive Data Types](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
 
 ## Resources
 
