@@ -9,6 +9,7 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 3. [== vs ===](#==-vs-===)
 4. [undefined vs null](#undefined-vs-null)
 5. [JavaScript Data Types](#javascript-data-types)
+6. [What do the spread and rest operators do in JavaScript?](./spreadAndRestOperators.js)
 
 
 
@@ -70,6 +71,19 @@ In JavaScript, data types are broadly categorized into two groups: primitive and
 
     - [MDN Web Docs on Data Types and Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
     - [MDN Web Docs on Primitive Data Types](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+
+## Spread and Rest Operators
+
+6. [What do the spread and rest operators do in JavaScript?](./spreadAndRestOperators.js) - Learn about the versatile ... operator, which can be used as both a spread and a rest operator based on the context.
+
+In JavaScript, the `...` operator can act as both a spread operator and a rest operator, depending on where and how it's used:
+- **Spread Operator**: This is used to "spread" or expand elements of an iterable (like arrays or strings) into individual elements.
+- **Rest Operator**: Used in function parameters or in destructuring assignments to capture the remaining elements into an array.
+
+   - [MDN Web Docs on Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+   - [MDN Web Docs on Rest Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+   - [...spread operator and rest operator - Beau teaches JavaScript](https://www.youtube.com/watch?v=iLx4ma8ZqvQ)
+
 
 ## Resources
 
