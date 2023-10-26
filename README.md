@@ -10,6 +10,7 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 4. [undefined vs null](#undefined-vs-null)
 5. [JavaScript Data Types](#javascript-data-types)
 6. [What do the spread and rest operators do in JavaScript?](./spreadAndRestOperators.js)
+7. [Destructuring Objects and Arrays in JavaScript](#destructuringObjectsAndArrays)
 
 
 
@@ -88,3 +89,21 @@ In JavaScript, the `...` operator can act as both a spread operator and a rest o
 ## Resources
 
 - [Scrimba's Frontend Career Path](https://scrimba.com/playlist/pMvNwAD) - Comprehensive course covering a wide range of frontend topics and interview questions.
+
+
+## Destructuring Objects and Arrays in JavaScript
+
+### What is and why might you destructure an object or array?
+
+Destructuring is a feature in JavaScript that allows you to unpack values from objects or arrays directly into distinct variables. It simplifies the process of accessing the properties of an object or the elements of an array.
+
+### Benefits
+
+1. Simplifies Code: Helps in writing cleaner, more readable code.
+2. Efficient: Extract multiple properties in one statement.
+3. Flexible: You can pick only the properties you need.
+
+#### Additional Resources
+
+- [MDN Web Docs on Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [JavaScript Destructuring - Beau teaches JavaScript](https://www.youtube.com/watch?v=NIq3qLaHCIs)
