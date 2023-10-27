@@ -87,9 +87,9 @@ In JavaScript, the `...` operator can act as both a spread operator and a rest o
    - [...spread operator and rest operator - Beau teaches JavaScript](https://www.youtube.com/watch?v=iLx4ma8ZqvQ)
 
 
-## Resources
+### Resources
 
-- [Scrimba's Frontend Career Path](https://scrimba.com/playlist/pMvNwAD) - Comprehensive course covering a wide range of frontend topics and interview questions.
+- [Scrimba's Frontend Career Path](https://scrimba.com/playlist/pMvNwAD) 
 
 
 ## Destructuring Objects and Arrays in JavaScript
