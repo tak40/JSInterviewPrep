@@ -11,6 +11,7 @@ A curated list of JavaScript interview questions with explanations, solutions, a
 5. [JavaScript Data Types](#javascript-data-types)
 6. [What do the spread and rest operators do in JavaScript?](./spreadAndRestOperators.js)
 7. [Destructuring Objects and Arrays in JavaScript](#destructuringObjectsAndArrays)
+8. [Git Fundamentals](#git-fundamentals)
 
 
 
@@ -107,3 +108,16 @@ Destructuring is a feature in JavaScript that allows you to unpack values from o
 
 - [MDN Web Docs on Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 - [JavaScript Destructuring - Beau teaches JavaScript](https://www.youtube.com/watch?v=NIq3qLaHCIs)
+
+
+## Git Fundamentals
+
+8. [What is Git? Why do you use it? What are some common commands you use?](./gitFundamentals.md) - Understand the essentials of Git, a distributed version control system.
+
+Git is a distributed version control system that helps you track changes in your code throughout its development cycle. It allows multiple people to work on the same codebase simultaneously, and it helps to integrate their changes efficiently.
+
+### Why use Git?
+
+1. **Version Control**: Keep a history of code changes and roll back to previous states if needed.
+2. **Collaboration**: Allows multiple developers to work on the same project simultaneously.
+3. **Branching and Merging**: Facilitates feature development, bug fixing, and code refactoring without affecting the main codebase.
